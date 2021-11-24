@@ -6,7 +6,7 @@ import numpy as np
 from keras.models import model_from_json
 
 
-frame = {"top":120, "left":1146, "width":160, "height":150} # Borders of the screenshot
+frame = {"top":145, "left":724, "width":124, "height":166} # Borders of the screenshot
 ss_manager = mss()  # We are using mss() for taking a screenshot
 is_exit = False     # A variable for stopping the program
 my_timer = 0        # A variable which store the time passed

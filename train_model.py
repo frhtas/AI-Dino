@@ -120,7 +120,7 @@ def plot_accuracy_and_loss():
 
 # MAIN PROGRAM
 if __name__ == "__main__":
-    images = glob.glob("./dataset/*.png")    # Get all image paths with glob
+    images = glob.glob("./images/*.png")    # Get all image paths with glob
 
     X, Y = get_images_and_labels(images)    # Get images and their labels
 

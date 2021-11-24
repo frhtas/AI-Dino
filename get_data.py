@@ -9,7 +9,7 @@ from pathlib import Path
 https://chrome.google.com/webstore/detail/online-dino/ckkofollclpnogccmelmlekkcgnanphc?hl=tr
 """
 
-frame = {"top":120, "left":1146, "width":160, "height":150} # Borders of the screenshot
+frame = {"top":145, "left":724, "width":124, "height":166} # Borders of the screenshot
 ss_manager = mss()  # We are using mss() for taking a screenshot
 count = 0           # A variable which count the screenshots
 is_exit = False     # A variable for stopping the program
